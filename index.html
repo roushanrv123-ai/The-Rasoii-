@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Rasoii | Menu, Contact and Location, Katihar</title>
+<meta name="description" content="The Rasoii, New Market Road, Katihar. View our dine-in menu, call or WhatsApp us, and find us on the map.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Fraunces:opsz,wght@9..144,600;9..144,800&display=swap" rel="stylesheet">
+<style>
+:root{--navy:#10304f;--navy2:#0b2239;--gold:#f0b429;--ink:#1b2430;--mute:#5d6877;--paper:#f6f9fc;--line:#dbe5ee;--wa:#1f9d55}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:"DM Sans",system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--ink);background:var(--paper);line-height:1.6;padding-bottom:84px}
+a{color:inherit}
+.wrap{max-width:980px;margin:0 auto;padding:0 22px}
+
+/* hero */
+.hero{background:linear-gradient(160deg,var(--navy) 0%,var(--navy2) 100%);color:#fff;text-align:center;padding:64px 0 56px}
+.hero .the{font-family:Fraunces,Georgia,serif;font-size:22px;font-weight:600;color:var(--gold);letter-spacing:.5px}
+.hero h1{margin:0;font-family:Fraunces,Georgia,serif;font-weight:800;font-size:clamp(54px,14vw,104px);line-height:1;letter-spacing:2px}
+.hero p{margin:16px auto 0;max-width:30ch;font-size:19px;color:#cfdbe8}
+.cta{display:flex;flex-wrap:wrap;justify-content:center;gap:12px;margin-top:32px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:50px;padding:0 26px;border-radius:999px;font:700 16px "DM Sans",sans-serif;text-decoration:none;border:2px solid transparent;transition:transform .15s,background .15s}
+.btn:hover{transform:translateY(-2px)}
+.btn.gold{background:var(--gold);color:#241a00}
+.btn.ghost{border-color:#6f8bab;color:#fff}
+.btn.ghost:hover{background:rgba(255,255,255,.1)}
+.btn.blue{background:var(--navy);color:#fff}
+.btn.wa{background:var(--wa);color:#fff}
+.btn.line{border-color:var(--navy);color:var(--navy)}
+.btn:focus-visible,.bar a:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;flex:none}
+
+/* highlights */
+.facts{display:grid;grid-template-columns:repeat(3,1fr);background:#fff;border-bottom:1px solid var(--line)}
+.facts div{padding:22px 16px;text-align:center;border-right:1px solid var(--line)}
+.facts div:last-child{border-right:0}
+.facts b{display:block;font-family:Fraunces,Georgia,serif;font-size:20px;color:var(--navy)}
+.facts span{font-size:14px;color:var(--mute)}
+@media(max-width:620px){.facts{grid-template-columns:1fr}.facts div{border-right:0;border-bottom:1px solid var(--line)}.facts div:last-child{border-bottom:0}}
+
+/* sections */
+section{padding:56px 0 8px}
+h2{margin:0 0 14px;font-family:Fraunces,Georgia,serif;font-size:32px;line-height:1.2;color:var(--navy)}
+.cols{display:grid;grid-template-columns:1fr 1fr;gap:44px}
+@media(max-width:760px){.cols{grid-template-columns:1fr;gap:6px}}
+p{margin:0 0 12px;max-width:60ch}
+.mute{color:var(--mute)}
+.phone{font-family:Fraunces,Georgia,serif;font-size:30px;font-weight:600;color:var(--navy);text-decoration:none}
+.row{display:flex;flex-wrap:wrap;gap:12px;margin-top:16px}
+.sep{height:1px;background:var(--line);margin:48px 0 0}
+
+footer{margin-top:56px;background:var(--navy2);color:#9fb3c8;text-align:center;padding:28px 16px;font-size:14px}
+footer b{display:block;color:#fff;font-family:Fraunces,Georgia,serif;font-size:20px;margin-bottom:4px}
+
+/* mobile action bar */
+.bar{position:fixed;left:0;right:0;bottom:0;display:flex;background:#fff;border-top:1px solid var(--line);padding-bottom:env(safe-area-inset-bottom,0);z-index:10}
+.bar a{flex:1;display:flex;flex-direction:column;align-items:center;gap:2px;padding:10px 4px;text-decoration:none;font-size:13px;font-weight:700;color:var(--navy)}
+.bar a+a{border-left:1px solid var(--line)}
+@media(min-width:900px){.bar{display:none}body{padding-bottom:0}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.btn{transition:none}}
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <div class="the">The</div>
+    <h1>RASOII</h1>
+    <p>Welcome to a world of authentic flavours</p>
+    <div class="cta">
+      <a class="btn gold" href="https://roushanrv123-ai.github.io/rasoii-menu/">
+        <svg viewBox="0 0 24 24"><path d="M4 5h16M4 12h16M4 19h10"/></svg>View menu
+      </a>
+      <a class="btn ghost" href="#contact">Contact us</a>
+      <a class="btn ghost" href="#find">Find us</a>
+    </div>
+  </div>
+</header>
+
+<div class="facts">
+  <div><b>Dine-in</b><span>Fresh meals served at our table</span></div>
+  <div><b>10% reward points</b><span>Join Our Loyalty Club</span></div>
+  <div><b>5% GST included</b><span>No extra charge at billing</span></div>
+</div>
+
+<main class="wrap">
+  <section id="about">
+    <h2>About us</h2>
+    <div class="cols">
+      <div>
+        <p>The Rasoii is a dine-in restaurant in Katihar, built around authentic flavours and food cooked the way you like it.</p>
+        <p>Tell our team the level of spice you prefer and we will prepare your dish to match.</p>
+      </div>
+      <div>
+        <p><strong>Our Loyalty Club</strong></p>
+        <p>Share your name and contact number at the counter and earn 10% reward points to use on your next visit.</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="sep"></div>
+
+  <section id="contact">
+    <h2>Contact us</h2>
+    <p class="mute">Call or message us on WhatsApp to enquire or place an order.</p>
+    <a class="phone" href="tel:+917667946304">+91 76679 46304</a>
+    <div class="row">
+      <a class="btn blue" href="tel:+917667946304"><svg viewBox="0 0 24 24"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></svg>Call now</a>
+      <a class="btn wa" href="https://wa.me/917667946304" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M21 12a9 9 0 0 1-13.4 7.8L3 21l1.3-4.4A9 9 0 1 1 21 12z"/></svg>WhatsApp us</a>
+    </div>
+  </section>
+
+  <div class="sep"></div>
+
+  <section id="find">
+    <h2>Find us</h2>
+    <p><strong>The Rasoii</strong><br>Above Karnataka Cafe,<br>New Market Road, Katihar</p>
+    <div class="row">
+      <a class="btn line" href="https://www.google.com/maps/search/?api=1&query=The+Rasoii+Above+Karnataka+Cafe+New+Market+Road+Katihar" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M12 21s7-6.2 7-11.5A7 7 0 0 0 5 9.5C5 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>Get directions</a>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <b>The Rasoii</b>
+  Above Karnataka Cafe, New Market Road, Katihar<br>
+  Thank you for dining with us.
+</footer>
+
+<nav class="bar" aria-label="Quick actions">
+  <a href="https://roushanrv123-ai.github.io/rasoii-menu/"><svg viewBox="0 0 24 24"><path d="M4 5h16M4 12h16M4 19h10"/></svg>Menu</a>
+  <a href="tel:+917667946304"><svg viewBox="0 0 24 24"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></svg>Call</a>
+  <a href="https://wa.me/917667946304" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M21 12a9 9 0 0 1-13.4 7.8L3 21l1.3-4.4A9 9 0 1 1 21 12z"/></svg>WhatsApp</a>
+  <a href="https://www.google.com/maps/search/?api=1&query=The+Rasoii+Above+Karnataka+Cafe+New+Market+Road+Katihar" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M12 21s7-6.2 7-11.5A7 7 0 0 0 5 9.5C5 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>Directions</a>
+</nav>
+
+</body>
+</html>
